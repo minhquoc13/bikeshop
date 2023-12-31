@@ -25,7 +25,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-      <div className="bg-[url('/purple_green.png')] bg-center bg-no-repeat bg-fixed bg-cover">
+      <div className="bg-[url('/purple_green.png')] bg-center bg-no-repeat bg-fixed bg-cover border-t">
         <div className="px-10 w-[85%] py-5 mx-auto">
           <div className="flex items-center justify-between">
             <div>
@@ -38,21 +38,22 @@ const Header = () => {
                 ></Image>
               </a>
             </div>
-            <div className="flex items-center justify-between gap-10 text-base">
-              <Link href="collections">SHOPPING</Link>
-              <Link href="collections">SERVICES</Link>
-              <Link href="collections">SHIPPING</Link>
-              <Link href="collections">ABOUT</Link>
+            <div className="flex items-center justify-between gap-12 text-base font-medium tracking-[4px] uppercase">
+              <Link href="/collections">SHOPPING</Link>
+              <Link href="/services">SERVICES</Link>
+              <Link href="/shipping">SHIPPING</Link>
+              <Link href="/blogs">BLOGS</Link>
+              <Link href="/about">ABOUT</Link>
             </div>
-            <div className="flex items-center justify-between gap-3 text-[24px]">
+            <div className="flex items-center justify-between gap-5 text-[26px]">
               <Link href="user">
                 <CiUser />
               </Link>
-              <Link href="cart">
-                <CiShoppingCart />
-              </Link>
               <Link href="user">
                 <CiSearch />
+              </Link>
+              <Link href="cart">
+                <CiShoppingCart />
               </Link>
             </div>
           </div>
