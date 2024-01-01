@@ -38,12 +38,12 @@ const Header = () => {
                 ></Image>
               </a>
             </div>
-            <div className="flex items-center justify-between gap-12 text-base font-medium tracking-[4px] uppercase">
+            <div className="flex items-center justify-between gap-12 text-base tracking-[4px] uppercase">
               <Link href="/collections">SHOPPING</Link>
               <Link href="/services">SERVICES</Link>
               <Link href="/shipping">SHIPPING</Link>
               <Link href="/blogs">BLOGS</Link>
-              <Link href="/about">ABOUT</Link>
+              <Link href="/about">ETCETERA</Link>
             </div>
             <div className="flex items-center justify-between gap-5 text-[26px]">
               <Link href="user">

@@ -9,3 +9,19 @@ body,
 }
 
 
+.slick-slide .slick-active .slick-current img {
+  width: 100%!important;
+}
+
+.slick-dots {
+  position: relative!important;
+}
+
+
+.slick-dots li{
+  width: 70px!important;
+  height: 50px!important;
+}
+.slick-dots .slick-active {
+  border: 1px solid blue;
+}
